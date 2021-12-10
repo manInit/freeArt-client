@@ -1,0 +1,33 @@
+@import './bootstrap.min.css';
+@import './variables.scss';
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+body {
+  background: var(--main-color);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--contrast-color);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}

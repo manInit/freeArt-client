@@ -1,0 +1,60 @@
+:root {
+  --main-color: #fff;
+  --active-color: #389FFE;
+  --contrast-color: #000;
+  --gray-color: #eee;
+  --purple-color: #384CFE;
+  --nonactive-color: #383838;
+  --header-bg: #fff;
+  --footer-bg: #000;
+  --footer-color: #fff;
+  --question-color: #888;
+  --card-bg: #fff;
+  --link-hover: #1a1e21;
+  --nav-bg: #fff;
+  --nav-th-color: #eee;
+  --user-card-titles: #373737;
+  --user-card-mini: #868686;
+  --input-bg: #ffffff;
+  --date-color: #5A5A5A;
+  --image-placeholder-bg: #4D4D4D;
+
+  --delete-bg: #ff0000;
+
+  --user-icon-bg: #389ffe;
+  --user-icon-color: #fff;
+
+
+  --shadow-color-25: rgba(0, 0, 0, 0.25);
+  --shadow-color-50: rgba(0, 0, 0, 0.50);
+  --shadow-color-75: rgba(0, 0, 0, 0.75);
+}
+
+[data-theme="dark"] {
+  --main-color: #202225;
+  --active-color: #389FFE;
+  --contrast-color: #fff;
+  --gray-color: #eee;
+  --purple-color: #384CFE;
+  --header-bg: #04111d;
+  --footer-bg: #04111d;
+  --footer-color: #fff;
+  --card-bg: #303339;
+  --card-footer-bg: #4a4f59;
+  --link-hover: #fff;
+  --nav-bg: #353840;
+  --nav-th-color: #444;
+  --user-card-titles: #eee;
+  --user-card-mini: #eee;
+  --input-bg: #383838;
+  --date-color: #eee;
+  --delete-bg: #dc3545;
+  --image-placeholder-bg: #000;
+
+  --user-icon-color: #fff;
+
+  --shadow-color-25: rgba(255, 255, 255, 0);
+  --shadow-color-50: rgba(255, 255, 255, 0);
+  --shadow-color-75: rgba(255, 255, 255, 0);
+}
+
